@@ -34,7 +34,7 @@ $hash = {".-" => "A" ,
   "---.." => "8",
   "----." => "9",
   "-----" => "0",
- }
+}
 
 def decode_char(char)
   $hash.each{ |key, value| return "#{value}" if key == char}
@@ -45,7 +45,16 @@ def decode_word(word)
   _splitted = word.split
   _result = []
   _splitted.each do |i| 
-   _result.push(decode_char(i))
+    _result.push(decode_char(i))
   end
- return _result.join
+  return _result.join
+end
+
+def decode(phrase)
+  _splittedPhrase = phrase.split("   ");
+  _result = []
+  _splittedPhrase.each do |i|
+    _result.push(decode_word(i))
+  end
+  return _result.join(" ")
 end
