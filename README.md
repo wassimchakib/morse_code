@@ -144,6 +144,12 @@ npm run deploy
 - Twitter: [@wassim_chakib](https://twitter.com/wassim_chakib)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/wassimchakib/)
 
+👤 Valentine Blaze
+
+- GitHub: [@V-blaze](https://github.com/V-Blaze)
+- Twitter: [@blaze_valentine](https://twitter.com/blaze_valentine)
+- LinkedIn: [@valentine-blaze](https://www.linkedin.com/in/valentine-blaze/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
