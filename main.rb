@@ -40,3 +40,12 @@ def decode_char(char)
   $hash.each{ |key, value| return "#{value}" if key == char}
   return
 end
+
+def decode_word(word)
+  _splitted = word.split
+  _result = []
+  _splitted.each do |i| 
+   _result.push(decode_char(i))
+  end
+ return _result.join
+end
