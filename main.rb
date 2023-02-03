@@ -11,7 +11,7 @@ def decode_char(char)
 end
 
 def decode_word(word)
-  splitted = word.split
+  splitted = word.split('  ')
   result = []
   splitted.each do |i|
     result.push(decode_char(i))
